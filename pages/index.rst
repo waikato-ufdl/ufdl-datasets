@@ -13,5 +13,5 @@ investigates a variety of data domains.
 
 For the following data domains, datasets have been made available:
 
-* `Image classification <link://slug/ic-index>`__
+* `Image classification <link://slug/image-classification>`__
 

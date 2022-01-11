@@ -1,5 +1,5 @@
 .. title: Image classification
-.. slug: ic-index
+.. slug: image-classification
 .. date: 2022-01-11 13:10:51 UTC+13:00
 .. tags: 
 .. category: 
@@ -10,5 +10,5 @@
 
 The following datasets are available for download:
 
-* `102 Flowers <link://slug/ic-102flowers>`__
+* `102 Flowers <link://slug/102flowers>`__
 
