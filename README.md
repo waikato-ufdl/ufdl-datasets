@@ -1,6 +1,11 @@
 # ufdl-datasets
 Nikola website making the UFDL datasets publicly available.
 
+The generated site is available here:
+
+https://datasets.cms.waikato.ac.nz/ufdl/
+
+
 ## Installation
 
 For developing the site locally:
