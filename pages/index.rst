@@ -14,4 +14,4 @@ investigates a variety of data domains.
 For the following data domains, datasets have been made available:
 
 * `Image classification <link://slug/image-classification>`__
-
+* `Object detection <link://slug/object-detection>`__

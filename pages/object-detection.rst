@@ -1,5 +1,5 @@
-.. title: Image classification
-.. slug: image-classification
+.. title: Object detection
+.. slug: object-detection
 .. date: 2022-03-02 15:10:51 UTC+13:00
 .. tags: 
 .. category: 
@@ -8,7 +8,6 @@
 .. type: text
 .. hidetitle: True
 
-The following **image classification** datasets are available for download:
+The following **object detection** datasets are available for download:
 
-* `102 Flowers <link://slug/102flowers>`__
 * `Caltech-UCSD Birds-200-2011 <link://slug/caltech-ucsd_birds-200-2011>`__
