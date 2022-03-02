@@ -20,6 +20,6 @@ Conversion from original data:
 * Rename *images* folder to *subdir*. This is the **image-classification** form of the dataset.
 * Run the attached `Python script </data/object_detection/caltech-ucsd_birds-200-2011/conversion/fix_birds.py>`__ (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.4) in the CUB-200-2011 directory to parse the *bounding_boxes.txt* into Pascal VOC format. The data in the *voc* directory is the **object-detection** form of the dataset.
 
-License (according to Caltech website):
+**License** (according to Caltech website)
 
 *We do not own the copyrights to these images. Their use is restricted to non-commercial research and educational purposes.*

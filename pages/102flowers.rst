@@ -8,7 +8,7 @@
 .. type: text
 .. hidetitle: True
 
-Image classification dataset containing 102 species of flowers:
+Image classification dataset containing 8189 images consisting of 102 species of flowers:
 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/image_classification/102flowers/README.txt>`__)
 * `Original dataset </data/image_classification/102flowers/102flowers.tgz>`__
@@ -20,3 +20,7 @@ Conversion from original data (original data + categories.html + Matlab mapping 
 * `Categories </data/image_classification/102flowers/conversion/categories.html>`__
 * `Matlab mapping </data/image_classification/102flowers/conversion/imagelabels.mat>`__
 
+**License**
+
+Unclear. According to the associated publication `Nilsback, M-E. and Zisserman, A. Automated flower classification over a large number of classes. Proceedings of the Indian Conference on Computer Vision, Graphics and Image Processing (2008) <https://www.robots.ox.ac.uk/~vgg/publications/papers/nilsback08.pdf>`__:
+*Most of the images were collected from the web. A small number of images were acquired by taking the pictures ourselves.*
