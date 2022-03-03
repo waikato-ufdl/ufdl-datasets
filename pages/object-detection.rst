@@ -10,4 +10,5 @@
 
 The following **object detection** datasets are available for download:
 
+* `American Sign Language Letters <link://slug/american-sign-language-letters>`__
 * `Caltech-UCSD Birds-200-2011 <link://slug/caltech-ucsd_birds-200-2011>`__

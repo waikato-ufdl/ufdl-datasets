@@ -11,4 +11,5 @@
 The following **image classification** datasets are available for download:
 
 * `102 Flowers <link://slug/102flowers>`__
+* `American Sign Language Letters <link://slug/american-sign-language-letters>`__
 * `Caltech-UCSD Birds-200-2011 <link://slug/caltech-ucsd_birds-200-2011>`__
