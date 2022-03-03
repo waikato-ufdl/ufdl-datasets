@@ -8,9 +8,9 @@
 .. type: text
 .. hidetitle: True
 
-Image classification and object detection dataset containing 11,788 images consisting of 200 species of birds (**Warning:** Images in this dataset overlap with images in ImageNet).
+Object detection and image classification dataset containing 1,728 images in total for all ASL letters (in case of object detection with a bounding box).
 
-* `Source <https://public.roboflow.com/object-detection/american-sign-language-letters/1>`__ (`README </data/object_detection/caltech-ucsd_birds-200-2011/README.txt>`__)
+* `Source <https://public.roboflow.com/object-detection/american-sign-language-letters/1>`__
 * `Original dataset </data/raw/american-sign-language-letters/American Sign Language Letters.v1-v1.voc.zip>`__
 * `Image classification dataset </data/image_classification/american-sign-language-letters/american-sign-language-letters-imgcls.zip>`__
 * `Object detection dataset (VOC XML format) </data/object_detection/american-sign-language-letters/american-sign-language-letters-voc.zip>`__
