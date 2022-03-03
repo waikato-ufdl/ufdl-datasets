@@ -38,7 +38,7 @@ For developing the site locally:
   * use the same sub-directory in `raw`, `conversion` and the various domain directories 
   * add `LINK` text file to original dataset in the `raw` and various domain directories
 
-* Update the relevant pages:
+* Update the relevant pages (update timestamp as well!):
 
   * `index.rst` - contains links to domain pages that list/link the actual datasets
   * `image-classification.rst` - page for listing image classification datasets
