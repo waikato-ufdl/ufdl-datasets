@@ -29,12 +29,20 @@ For developing the site locally:
 * Pages are located in `pages`
 * News items (aka blog posts) are located in `posts`; should have a date prefix in the name
 
-### How to list datasets
+### How to add/list datasets
+
+* `datasets.cms.waikato.ac.nz/var/www/html/ufdl/data/`
+
+  * `raw` - for the original data
+  * `conversion` - any data/script/etc that is required for converting the original data into the downloadable one
+  * use the same sub-directory in `raw`, `conversion` and the various domain directories 
+  * add `LINK` text file to original dataset in the `raw` and various domain directories
 
 * Update the relevant pages:
 
   * `index.rst` - contains links to domain pages that list/link the actual datasets
   * `image-classification.rst` - page for listing image classification datasets
+  * `object-detection.rst` - page for listing object detection datasets
 
 * Deploy the site
 
