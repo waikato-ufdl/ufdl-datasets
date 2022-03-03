@@ -8,6 +8,11 @@
 .. type: text
 .. hidetitle: True
 
+.. image:: /images/american-sign-language-letters.jpg
+   :height: 200px
+   :alt: American Sign Language: Letter U
+   :align: right
+
 Object detection and image classification dataset containing 1,728 images in total for all ASL letters (in case of object detection with a bounding box).
 
 * `Source <https://public.roboflow.com/object-detection/american-sign-language-letters/1>`__

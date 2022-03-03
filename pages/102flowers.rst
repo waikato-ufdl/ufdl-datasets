@@ -8,6 +8,11 @@
 .. type: text
 .. hidetitle: True
 
+.. image:: /images/102flowers.jpg
+   :height: 200px
+   :alt: 102 flowers: Alpine Sea Holly
+   :align: right
+
 Image classification dataset containing 8189 images consisting of 102 species of flowers:
 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/raw/102flowers/README.txt>`__)

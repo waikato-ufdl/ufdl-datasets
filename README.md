@@ -43,7 +43,8 @@ For developing the site locally:
   * `index.rst` - contains links to domain pages that list/link the actual datasets
   * `image-classification.rst` - page for listing image classification datasets
   * `object-detection.rst` - page for listing object detection datasets
-
+  * add sample image in `/images` to be used as thumbnail on image page
+  
 * Deploy the site
 
 

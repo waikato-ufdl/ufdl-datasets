@@ -8,6 +8,11 @@
 .. type: text
 .. hidetitle: True
 
+.. image:: /images/caltech-ucsd_birds-200-2011.jpg
+   :height: 200px
+   :alt: Caltech-UCSD Birds-200-2011: Black footed Albatross
+   :align: right
+
 Image classification and object detection datasets containing 11,788 images consisting of 200 species of birds (**Warning:** Images in this dataset overlap with images in ImageNet).
 
 * `Source <http://www.vision.caltech.edu/visipedia/CUB-200-2011.html>`__ (`README </data/raw/caltech-ucsd_birds-200-2011/README.txt>`__)
