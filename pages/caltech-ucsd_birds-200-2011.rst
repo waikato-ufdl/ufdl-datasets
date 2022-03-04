@@ -17,7 +17,7 @@ Image classification and object detection datasets containing 11,788 images cons
 
 * `Source <http://www.vision.caltech.edu/visipedia/CUB-200-2011.html>`__ (`README </data/raw/caltech-ucsd_birds-200-2011/README.txt>`__)
 * `Original dataset </data/raw/caltech-ucsd_birds-200-2011/CUB_200_2011.tgz>`__ (1.2GB)
-* `Image classification dataset </data/image_classification/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-imgcls.zip>`__ (1.1GB)
+* `Image classification dataset </data/image_classification/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-subdir.zip>`__ (1.1GB)
 * `Object detection dataset (VOC XML format) </data/object_detection/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-voc.zip>`__ (1.1GB)
 
 Conversion from original data:
