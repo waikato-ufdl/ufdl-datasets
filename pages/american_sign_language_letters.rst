@@ -1,6 +1,6 @@
 .. title: American Sign Language Letters
 .. slug: american-sign-language-letters
-.. date: 2022-03-03 15:02:51 UTC+13:00
+.. date: 2022-03-04 14:02:51 UTC+13:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 
@@ -16,9 +16,9 @@
 Object detection and image classification dataset containing 1,728 images in total for all ASL letters (in case of object detection with a bounding box).
 
 * `Source <https://public.roboflow.com/object-detection/american-sign-language-letters/1>`__
-* `Original dataset </data/raw/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__
-* `Image classification dataset </data/image_classification/american-sign-language-letters/american-sign-language-letters-imgcls.zip>`__
-* `Object detection dataset (VOC XML format) </data/object_detection/american-sign-language-letters/american-sign-language-letters-voc.zip>`__
+* `Original dataset </data/raw/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__ (24MB)
+* `Image classification dataset </data/image_classification/american-sign-language-letters/american-sign-language-letters-imgcls.zip>`__ (22MB)
+* `Object detection dataset (VOC XML format) </data/object_detection/american-sign-language-letters/american-sign-language-letters-voc.zip>`__ (23MB)
 
 Conversion from original data:
 

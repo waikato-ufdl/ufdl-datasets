@@ -1,6 +1,6 @@
 .. title: 102 Flowers
 .. slug: 102flowers
-.. date: 2022-01-11 13:10:51 UTC+13:00
+.. date: 2022-03-04 14:10:51 UTC+13:00
 .. tags: image-classification
 .. category: image-dataset
 .. link: 
@@ -16,8 +16,8 @@
 Image classification dataset containing 8189 images consisting of 102 species of flowers:
 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/raw/102flowers/README.txt>`__)
-* `Original dataset </data/raw/102flowers/102flowers.tgz>`__
-* `Species sub-folders </data/image_classification/102flowers/102flowers-categories.tgz>`__
+* `Original dataset </data/raw/102flowers/102flowers.tgz>`__ (345MB)
+* `Species sub-folders </data/image_classification/102flowers/102flowers-categories.tgz>`__ (345MB)
 
 Conversion from original data (original data + categories.html + Matlab mapping + ADAMS workflow):
 
