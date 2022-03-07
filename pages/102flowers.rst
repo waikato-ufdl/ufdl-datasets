@@ -16,14 +16,14 @@
 Image classification dataset containing 8189 images consisting of 102 species of flowers:
 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/raw/102flowers/README.txt>`__)
-* `Original dataset </data/raw/102flowers/102flowers.tgz>`__ (345MB)
-* `Species sub-folders </data/image_classification/102flowers/102flowers-categories.tgz>`__ (345MB)
+* `Original dataset </data/raw/102flowers/102flowers.zip>`__ (346MB)
+* `Species sub-folders </data/image_classification/102flowers/102flowers-subdir.zip>`__ (346MB)
 
 Conversion from original data (original data + categories.html + Matlab mapping + ADAMS workflow):
 
-* `ADAMS workflow </data/conversion/102flowers/categories.flow>`__ (`adams-ufdl-all <https://adams.cms.waikato.ac.nz/snapshots/ufdl/adams-ufdl-all-snapshot-bin.zip>`__)
-* `Categories </data/conversion/102flowers/categories.html>`__
-* `Matlab mapping </data/conversion/102flowers/imagelabels.mat>`__
+* `ADAMS workflow </data/conversion/102flowers/categories.flow>`__ (7KB, use with `adams-ufdl-all <https://adams.cms.waikato.ac.nz/snapshots/ufdl/adams-ufdl-all-snapshot-bin.zip>`__)
+* `Categories </data/conversion/102flowers/categories.html>`__ (22KB)
+* `Matlab mapping </data/conversion/102flowers/imagelabels.mat>`__ (0.5KB)
 
 **License**
 
