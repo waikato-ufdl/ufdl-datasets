@@ -10,6 +10,7 @@
 
 The following **object detection** datasets are available for download:
 
+* `17 Flowers <link://slug/17flowers>`__
 * `American Sign Language Letters <link://slug/american-sign-language-letters>`__
 * `Caltech-UCSD Birds-200-2011 <link://slug/caltech-ucsd_birds-200-2011>`__
 * `Stanford Dogs <link://slug/stanford-dogs>`__
