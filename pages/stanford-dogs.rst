@@ -18,7 +18,7 @@ Image classification and object detection datasets containing 20,580 images cons
 * `Source <http://vision.stanford.edu/aditya86/ImageNetDogs/main.html>`__ (`README </data/raw/stanford-dogs/README.txt>`__)
 * Original dataset: `images </data/raw/stanford-dogs/images.tar>`__ (794MB), `annotations </data/raw/stanford-dogs/annotation.tar>`__ (22MB)
 * `Image classification dataset </data/image_classification/stanford-dogs/stanford-dogs-subdir.zip>`__ (775MB)
-* `Object detection dataset (VOC XML format) </data/object_detection/stanford-dogs/stanford-dogs-voc.zip>`__ (745MB)
+* `Object detection dataset (VOC XML format) </data/object_detection/stanford-dogs/stanford-dogs-voc.zip>`__ (781MB)
 
 Conversion from original data:
 
