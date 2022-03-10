@@ -23,7 +23,7 @@ Image classification and object detection datasets containing 11,788 images cons
 Conversion from original data:
 
 * Rename *images* folder to *subdir*. This is the **image-classification** form of the dataset.
-* Run the attached `Python script </data/conversion/caltech-ucsd_birds-200-2011/fix_birds.py>`__ (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.4) in the CUB-200-2011 directory to parse the *bounding_boxes.txt* into Pascal VOC format. The data in the *voc* directory is the **object-detection** form of the dataset.
+* Run the attached `Python script </data/conversion/caltech-ucsd_birds-200-2011/fix_birds.py>`__ (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.5) in the CUB-200-2011 directory to parse the *bounding_boxes.txt* into Pascal VOC format. The data in the *voc* directory is the **object-detection** form of the dataset.
 
 **License** (according to Caltech website)
 

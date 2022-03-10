@@ -24,7 +24,7 @@ Conversion from original data:
 
 * Download the dataset in Pascal VOC format from the URL (use default settings). If the download does not work, double-check you are logged in to Roboflow, as the website is not very good at indicating this.
 * Extract and move all images/xml annotations into a single directory called *voc*. This is the **object-detection** form of the dataset.
-* Run: `wai-annotations convert from-voc-od -i "voc/*.xml" od-to-ic to-subdir-ic -o subdir` (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.4)
+* Run: `wai-annotations convert from-voc-od -i "voc/*.xml" od-to-ic to-subdir-ic -o subdir` (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.5)
 * The resulting *subdir* directory is the **image classification** form of the dataset.
 
 **License** (according to Roboflow website)
