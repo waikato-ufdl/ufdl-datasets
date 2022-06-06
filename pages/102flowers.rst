@@ -1,6 +1,6 @@
 .. title: 102 Flowers
 .. slug: 102flowers
-.. date: 2022-03-08 10:40:51 UTC+13:00
+.. date: 2022-03-08 10:40:51 UTC+12:00
 .. tags: image-classification
 .. category: image-dataset
 .. link: 

@@ -1,6 +1,6 @@
 .. title: Image classification
 .. slug: image-classification
-.. date: 2022-03-04 15:33:51 UTC+13:00
+.. date: 2022-03-04 15:33:51 UTC+12:00
 .. tags: 
 .. category: 
 .. link: 

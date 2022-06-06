@@ -1,6 +1,6 @@
 .. title: Caltech-UCSD Birds-200-2011
 .. slug: caltech-ucsd_birds-200-2011
-.. date: 2022-03-04 14:20:51 UTC+13:00
+.. date: 2022-03-04 14:20:51 UTC+12:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 

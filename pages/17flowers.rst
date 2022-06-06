@@ -1,6 +1,6 @@
 .. title: 17 Flowers
 .. slug: 17flowers
-.. date: 2022-03-08 11:40:51 UTC+13:00
+.. date: 2022-03-08 11:40:51 UTC+12:00
 .. tags: image-classification, object-detection
 .. category: image-dataset
 .. link: 

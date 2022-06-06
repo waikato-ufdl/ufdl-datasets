@@ -1,6 +1,6 @@
 .. title: Stanford Dogs
 .. slug: stanford-dogs
-.. date: 2022-03-04 14:40:51 UTC+13:00
+.. date: 2022-03-04 14:40:51 UTC+12:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 

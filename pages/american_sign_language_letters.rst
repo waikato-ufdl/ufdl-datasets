@@ -1,6 +1,6 @@
 .. title: American Sign Language Letters
 .. slug: american-sign-language-letters
-.. date: 2022-03-04 14:02:51 UTC+13:00
+.. date: 2022-03-04 14:02:51 UTC+12:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 
