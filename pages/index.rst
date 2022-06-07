@@ -1,6 +1,6 @@
 .. title: User-friendly Deep Learning: Datasets
 .. slug: index
-.. date: 2022-01-11 13:10:51 UTC+13:00
+.. date: 2022-06-07 09:19:00 UTC+12:00
 .. tags: 
 .. category: 
 .. link: 
@@ -14,4 +14,5 @@ investigates a variety of data domains.
 For the following data domains, datasets have been made available:
 
 * `Image classification <link://slug/image-classification>`__
+* `Image segmentation <link://slug/image-segmentation>`__
 * `Object detection <link://slug/object-detection>`__
