@@ -21,9 +21,9 @@ Image classification dataset containing 8189 images consisting of 102 species of
 
 Conversion from original data (original data + categories.html + Matlab mapping + ADAMS workflow):
 
-* `ADAMS workflow </data/conversion/102flowers/categories.flow>`__ (7KB, use with `adams-ufdl-all <https://adams.cms.waikato.ac.nz/snapshots/ufdl/adams-ufdl-all-snapshot-bin.zip>`__)
-* `Categories </data/conversion/102flowers/categories.html>`__ (22KB)
-* `Matlab mapping </data/conversion/102flowers/imagelabels.mat>`__ (0.5KB)
+* `ADAMS workflow </conversion/102flowers/categories.flow>`__ (7KB, use with `adams-ufdl-all <https://adams.cms.waikato.ac.nz/snapshots/ufdl/adams-ufdl-all-snapshot-bin.zip>`__)
+* `Categories </conversion/102flowers/categories.html>`__ (22KB)
+* `Matlab mapping </conversion/102flowers/imagelabels.mat>`__ (0.5KB)
 
 **License**
 

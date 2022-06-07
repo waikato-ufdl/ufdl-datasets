@@ -29,11 +29,11 @@ Conversion from original data:
   * `python3 -m venv venv`
   * `./venv/bin/pip install defusedxml`
 
-* Run this `Python script </data/conversion/stanford-dogs/fix_dogs.py>`__ in the top-level directory to fix/move the annotations into the *voc* directory: `./venv/bin/python fix_dogs.py`
+* Run this `Python script </conversion/stanford-dogs/fix_dogs.py>`__ in the top-level directory to fix/move the annotations into the *voc* directory: `./venv/bin/python fix_dogs.py`
 * Move all images into *voc* directory: `mv Images/**/* voc/`
-* Copy the images from `this archive </data/conversion/stanford-dogs/fixed_dogs.zip>`__ into the *voc* directory, replacing the originals. These are the images that we found with binary issues, that were hand edited to fix.
+* Copy the images from `this archive </conversion/stanford-dogs/fixed_dogs.zip>`__ into the *voc* directory, replacing the originals. These are the images that we found with binary issues, that were hand edited to fix.
 * Run: `wai-annotations convert from-voc-od -i "voc/*.xml" od-to-ic -m single to-subdir-ic -o subdir` (tested with `wai.annotations==0.7.5 <https://github.com/waikato-ufdl/wai-annotations>`__)
-* From inside the resulting *subdir* directory, run `xargs -I{} rm "{}" < path/to/remove.txt` with the `remove.txt </data/conversion/stanford-dogs/remove.txt>`__ file to remove other damaged images (these could not be hand-fixed).
+* From inside the resulting *subdir* directory, run `xargs -I{} rm "{}" < path/to/remove.txt` with the `remove.txt </conversion/stanford-dogs/remove.txt>`__ file to remove other damaged images (these could not be hand-fixed).
 * The resulting *voc* and *subdir* directories are the **object detection** and **image classification** versions of this dataset.
 
 **License** (according to ImageNet website)

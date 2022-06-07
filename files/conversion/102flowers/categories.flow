@@ -1,0 +1,80 @@
+# Project: adams
+# Date: 2022-03-08 10:37:30
+# User: fracpete
+# Charset: UTF-8
+# Modules: adams-audio,adams-compress,adams-core,adams-event,adams-ffmpeg,adams-imaging,adams-json,adams-matlab,adams-meta,adams-net,adams-rats-core,adams-spreadsheet,adams-terminal,adams-ufdl-audio,adams-ufdl-core,adams-ufdl-image,adams-xml
+#
+adams.flow.control.Flow -annotation "Splits the flat data directory with JPGs into separate sub-directories using the categories.html file." -flow-execution-listener adams.flow.execution.NullListener -flow-restart-manager adams.flow.control.flowrestart.NullManager
+ adams.flow.standalone.CallableActors
+  adams.flow.sink.ProgressBar -display-type adams.flow.core.displaytype.Default -writer adams.gui.print.NullWriter -max @{max}
+ adams.flow.source.Start
+ adams.flow.control.Trigger -name "prompt user"
+  adams.flow.standalone.SetVariable -name "restore file" -var-name restore -var-value @{flow_filename_long}.props -value-type FILE_FORWARD_SLASHES -expand-value true
+  adams.flow.source.EnterManyValues -stop-if-canceled true -value "adams.flow.source.valuedefinition.FileValueDefinition -name labels_file -display \"Matlab file with labels\" -file-chooser-title \"Labels file\" -initial-dir ${HOME}/development/datasets/images/102flowers -default-value ${HOME}/development/datasets/images/102flowers/imagelabels.mat -use-forward-slashes true" -value "adams.flow.source.valuedefinition.FileValueDefinition -name names_file -display \"HTML file with cagetory names\" -file-chooser-title \"HTML category file\" -initial-dir ${HOME}/development/datasets/images/102flowers -default-value ${HOME}/development/datasets/images/102flowers/categories.html -use-forward-slashes true" -value "adams.flow.source.valuedefinition.DirectoryValueDefinition -name image_dir -display \"Image directory\" -default-value ${HOME}/development/datasets/images/102flowers/jpg -use-forward-slashes true" -value "adams.flow.source.valuedefinition.DirectoryValueDefinition -name output_dir -display \"Output directory\" -default-value ${HOME}/development/datasets/images/102flowers/subdir -use-forward-slashes true" -output-type MAP -restoration-enabled true -restoration-file @{restore}
+  adams.flow.transformer.MapToVariables
+ adams.flow.control.Trigger -name "load numeric categories"
+  adams.flow.source.FileSupplier -file @{labels_file}
+  adams.flow.transformer.SpreadSheetFileReader -reader "adams.data.io.input.Mat5SpreadSheetReader -data-row-type adams.data.spreadsheet.DenseDataRow -spreadsheet-type adams.data.spreadsheet.DefaultSpreadSheet"
+  adams.flow.transformer.Convert -conversion adams.data.conversion.TransposeSpreadSheet
+  adams.flow.transformer.SpreadSheetExtractArray -output-array true
+  adams.flow.control.Cast
+  adams.flow.control.ArrayProcess
+   adams.flow.transformer.Convert -conversion "adams.data.conversion.DoubleToString -num-decimals 0"
+  adams.flow.transformer.SetStorageValue -storage-name labels
+ adams.flow.control.Trigger -name "list files"
+  adams.flow.source.FileSystemSearch -output-array true -search "adams.flow.source.filesystemsearch.LocalFileSearch -directory @{image_dir} -regexp .*\\\\.jpg -sorting SORT_BY_NAME" -use-forward-slashes true
+  adams.flow.transformer.SetStorageValue -storage-name images
+  adams.flow.control.ArrayProcess
+   adams.flow.transformer.BaseName
+  adams.flow.transformer.SetStorageValue -name "SetStorageValue (2)" -storage-name images_short
+ adams.flow.control.Trigger -name "category lookup per file"
+  adams.flow.standalone.LookUpInit -storage-name image_category
+  adams.flow.source.ZipArrays -storage-name images_short -storage-name labels
+  adams.flow.transformer.ArrayToSequence
+  adams.flow.transformer.LookUpAdd -storage-name image_category -value-conversion adams.data.conversion.ObjectToObject
+ adams.flow.control.Trigger -name "load category names"
+  adams.flow.source.Variable -var-name names_file -conversion adams.data.conversion.StringToString
+  adams.flow.transformer.TextFileReader -reader adams.data.io.input.LineArrayTextReader
+  adams.flow.control.Tee -name names
+   adams.flow.transformer.StringMatcher -regexp ".*td class=.*"
+   adams.flow.control.ArrayProcess
+    adams.flow.transformer.StringReplace -find ".* alt=\\\"(.*)" -replace $1
+    adams.flow.transformer.StringReplace -name "StringReplace (2)" -find "(.*)\\\".*" -replace $1
+    adams.flow.transformer.StringSanitizer -replace _
+   adams.flow.transformer.SetStorageValue -storage-name category_names
+  adams.flow.control.Tee -name files
+   adams.flow.transformer.StringMatcher -regexp ".*img src=.*"
+   adams.flow.control.ArrayProcess
+    adams.flow.transformer.StringReplace -find ".*img src=\\\"(.*)" -replace $1
+    adams.flow.transformer.SimpleStringReplace -find thumbs/thumbim_ -replace image_
+    adams.flow.transformer.StringReplace -name "StringReplace (2)" -find "\\\".*" -type ALL
+    adams.flow.transformer.LookUp -storage-name image_category
+   adams.flow.transformer.SetStorageValue -storage-name thumbnail_categories
+  adams.flow.control.Trigger -name "name lookup per category"
+   adams.flow.standalone.LookUpInit -storage-name category_name
+   adams.flow.source.ZipArrays -storage-name thumbnail_categories -storage-name category_names
+   adams.flow.transformer.ArrayToSequence
+   adams.flow.transformer.LookUpAdd -storage-name category_name -value-conversion adams.data.conversion.ObjectToObject
+ adams.flow.control.Trigger -name "create sub-dirs"
+  adams.flow.source.StorageValue -storage-name category_names -conversion adams.data.conversion.UnknownToUnknown
+  adams.flow.transformer.ArrayToSequence
+  adams.flow.transformer.PrependDir -prefix @{output_dir} -use-forward-slashes true
+  adams.flow.transformer.MakeDir
+ adams.flow.control.Trigger -name "copy files"
+  adams.flow.standalone.SetVariable -var-name index -var-value 0
+  adams.flow.source.StorageValue -storage-name images -conversion adams.data.conversion.UnknownToUnknown
+  adams.flow.control.Tee -name "# files"
+   adams.flow.transformer.ArrayLength
+   adams.flow.transformer.SetVariable -var-name max
+  adams.flow.transformer.ArrayToSequence
+  adams.flow.control.Tee -name progress
+   adams.flow.transformer.IncVariable -var-name index -output-variable-value true
+   adams.flow.sink.CallableSink -callable ProgressBar
+  adams.flow.control.Trigger -name "category/sub dir"
+   adams.flow.source.StorageValue -storage-name labels -conversion adams.data.conversion.UnknownToUnknown
+   adams.flow.transformer.GetArrayElement -index @{index}
+   adams.flow.transformer.LookUp -storage-name category_name -missing-key OUTPUT_KEY -suppress-missing-key-warnings true
+   adams.flow.transformer.PrependDir -prefix @{output_dir} -use-forward-slashes true
+   adams.flow.transformer.SetVariable -name "SetVariable (2)" -var-name sub_dir
+  adams.flow.transformer.CopyFile -target-dir @{sub_dir}
+ adams.flow.control.CloseCallableDisplay -callable ProgressBar

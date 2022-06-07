@@ -25,7 +25,7 @@ Conversion from original data:
 * Decompress images and trimaps archives
 * Create directory *voc*
 * Copy all images from *jpg* directory into *voc*
-* Run `Python script </data/conversion/17flowers/trimap_to_bb.py>`__ (`requirements.txt </data/conversion/17flowers/requirements.txt>`__) from the directory with *jpg* and *voc* directories to generate the bounding boxes in VOC XML format
+* Run `Python script </conversion/17flowers/trimap_to_bb.py>`__ (`requirements.txt </conversion/17flowers/requirements.txt>`__) from the directory with *jpg* and *voc* directories to generate the bounding boxes in VOC XML format
 * The *voc* directory contains the **object detection** dataset
 * Run: `wai-annotations convert from-voc-od -i "voc/*.xml" od-to-ic to-subdir-ic -o subdir` (requires the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library; tested with 0.7.5)
 * The *subdir* directory contains the **image classification** dataset

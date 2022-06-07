@@ -34,9 +34,10 @@ For developing the site locally:
 * `datasets.cms.waikato.ac.nz/var/www/html/ufdl/data/`
 
   * `raw` - for the original data
-  * `conversion` - any data/script/etc that is required for converting the original data into the downloadable one
-  * use the same sub-directory in `raw`, `conversion` and the various domain directories 
+  * use the same sub-directory in `raw` and the various domain directories 
   * add `LINK` text file to original dataset in the `raw` and various domain directories
+  
+* `files/conversion` - any data/script/etc that is required for converting the original data into the downloadable one; use the same sub-directory as for `raw` 
 
 * Update the relevant pages (update timestamp as well!):
 

@@ -24,7 +24,7 @@ Conversion from original data into dataset storing the label index in the blue c
 
 * Download the *images* and *annotations* archives and extract them, resulting in the *701_StillsRaw_full* and *LabeledApproved_full* directories.
 * Create *bluechannel* directory at the same level as extracted archives.
-* Run this `Python script </data/conversion/camvid/bluechannel.py>`__ (`requirements.txt </data/conversion/camvid/requirements.txt>`__) in the top-level directory to create images/annotations in the *bluechannel* directory: `./venv/bin/python bluechannel.py`
+* Run this `Python script </conversion/camvid/bluechannel.py>`__ (`requirements.txt </conversion/camvid/requirements.txt>`__) in the top-level directory to create images/annotations in the *bluechannel* directory: `./venv/bin/python bluechannel.py`
 
 **NB:** This conversion script skips image/annotation pair `Seq05VD_f02610` as it contains colors other than the defined
 labels, which reduces the number of images from the original 701 to 700.
