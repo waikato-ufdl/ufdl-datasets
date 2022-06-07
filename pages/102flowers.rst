@@ -15,9 +15,9 @@
 
 Image classification dataset containing 8189 images consisting of 102 species of flowers:
 
-* `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/raw/102flowers/README.txt>`__)
-* `Original dataset </data/raw/102flowers/102flowers.zip>`__ (346MB)
-* `Species sub-folders </data/image_classification/102flowers/102flowers-subdir.zip>`__ (346MB)
+* `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html>`__ (`README </data/102flowers/README.txt>`__)
+* `Original dataset </data/102flowers/102flowers.zip>`__ (346MB)
+* `Species sub-folders </data/102flowers/102flowers-subdir.zip>`__ (346MB)
 
 Conversion from original data (original data + categories.html + Matlab mapping + ADAMS workflow):
 

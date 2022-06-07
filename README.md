@@ -31,20 +31,33 @@ For developing the site locally:
 
 ### How to add/list datasets
 
+* define an *ID* for the dataset, e.g., `dataset1`
 * `datasets.cms.waikato.ac.nz/var/www/html/ufdl/data/`
 
-  * `raw` - for the original data
-  * use the same sub-directory in `raw` and the various domain directories 
-  * add `LINK` text file to original dataset in the `raw` and various domain directories
+  * create a sub-directory according to the *ID*
+  * add `LINK` text file with a link to the original dataset
+  * upload original data
   
-* `files/conversion` - any data/script/etc that is required for converting the original data into the downloadable one; use the same sub-directory as for `raw` 
+* `files/conversion`
+  
+  * create a sub-directory according to the *ID*
+  * upload any data/script/etc that is required for converting the original data 
+
+* `images`
+
+  * add sample image to be used as thumbnail on image page (use *ID*.jpg/png for better identification)
+
+* `pages`
+
+  * add page for the dataset with *ID*.rst as name
+  * use dataset *ID* for the page *slug* as well
 
 * Update the relevant pages (update timestamp as well!):
 
   * `index.rst` - contains links to domain pages that list/link the actual datasets
   * `image-classification.rst` - page for listing image classification datasets
+  * `image-segmentation.rst` - page for listing image segmentation datasets
   * `object-detection.rst` - page for listing object detection datasets
-  * add sample image in `/images` to be used as thumbnail on image page
   
 * Deploy the site
 

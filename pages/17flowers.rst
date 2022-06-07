@@ -15,10 +15,10 @@
 
 Image classification dataset containing 1360 images consisting of 17 species of flowers (trimaps/bounding box annotations only available for 16):
 
-* `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/17/>`__ (`README </data/raw/17flowers/README.txt>`__)
-* `Original images </data/raw/17flowers/17flowers.zip>`__ (60MB), `original trimaps </data/raw/17flowers/trimaps.zip>`__ (60MB)
-* `Image classification dataset </data/image_classification/17flowers/17flowers-subdir.zip>`__ (35MB)
-* `Object detection dataset </data/object_detection/17flowers/17flowers-voc.zip>`__ (61MB)
+* `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/17/>`__ (`README </data/17flowers/README.txt>`__)
+* `Original images </data/17flowers/17flowers.zip>`__ (60MB), `original trimaps </data/17flowers/trimaps.zip>`__ (60MB)
+* `Image classification dataset </data/17flowers/17flowers-subdir.zip>`__ (35MB)
+* `Object detection dataset </data/17flowers/17flowers-voc.zip>`__ (61MB)
 
 Conversion from original data:
 

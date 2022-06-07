@@ -16,9 +16,9 @@
 Object detection and image classification dataset containing 1,728 images in total for all ASL letters (in case of object detection with a bounding box).
 
 * `Source <https://public.roboflow.com/object-detection/american-sign-language-letters/1>`__
-* `Original dataset </data/raw/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__ (24MB)
-* `Image classification dataset </data/image_classification/american-sign-language-letters/american-sign-language-letters-subdir.zip>`__ (22MB)
-* `Object detection dataset (VOC XML format) </data/object_detection/american-sign-language-letters/american-sign-language-letters-voc.zip>`__ (23MB)
+* `Original dataset </data/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__ (24MB)
+* `Image classification dataset </data/american-sign-language-letters/american-sign-language-letters-subdir.zip>`__ (22MB)
+* `Object detection dataset (VOC XML format) </data/american-sign-language-letters/american-sign-language-letters-voc.zip>`__ (23MB)
 
 Conversion from original data:
 
