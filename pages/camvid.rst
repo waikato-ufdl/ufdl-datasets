@@ -18,7 +18,7 @@ The dataset comprises 32 labels.
 
 * `Source <http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/>`__
 * Original dataset: `images </data/raw/camvid/701_StillsRaw_full.zip>`__ (557MB), `annotations </data/raw/camvid/LabeledApproved_full.zip>`__ (16MB), `label colors </data/raw/camvid/label_colors.txt>`__
-* `Image segmentation dataset (blue-channel) </data/image_classification/camvid/camvid-bluechannel.zip>`__ (163MB)
+* `Image segmentation dataset (blue-channel) </data/image_segmentation/camvid/camvid-bluechannel.zip>`__ (163MB)
 
 Conversion from original data into dataset storing the label index in the blue channel of the RGB PNG image (1-32):
 
