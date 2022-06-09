@@ -1,4 +1,4 @@
-.. title: CamVid datasets
+.. title: CamVid dataset
 .. slug: 2022-06-07-camvid-dataset
 .. date: 2022-06-07 11:00:00 UTC+12:00
 .. tags: 

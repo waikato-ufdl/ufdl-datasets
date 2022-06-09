@@ -11,3 +11,4 @@
 The following **image segmentation** datasets are available for download:
 
 * `CamVid <link://slug/camvid>`__
+* `CamVid-12 <link://slug/camvid12>`__
