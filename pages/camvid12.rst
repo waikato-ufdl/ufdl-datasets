@@ -17,7 +17,7 @@ Image segmentation dataset generated from dash cam videos, consisting of 701 ima
 The dataset comprises 12 labels as opposed to the original `CamVid <link://slug/camvid>`__ dataset with 32.
 
 * `Source <https://github.com/alexgkendall/SegNet-Tutorial>`__
-* Original dataset: `SegNet-Tutorial-master.zip </data/camvid12/SegNet-Tutorial-master.zip>`__ (179MB)
+* Original dataset: `SegNet-Tutorial-master.zip </data/camvid12/SegNet-Tutorial-master.zip>`__ (179MB), `labels </data/camvid12/labels.txt>`__
 * `Image segmentation dataset (grayscale) </data/camvid12/camvid12-grayscale.zip>`__ (51MB)
 * `Image segmentation dataset (grayscale/split) </data/camvid12/camvid12-grayscale-split.zip>`__ (51MB)
 
