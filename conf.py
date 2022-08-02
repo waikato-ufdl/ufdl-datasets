@@ -146,6 +146,7 @@ NAVIGATION_LINKS = {
         ((
           ("/image-classification/", "Image classification"),
           ("/image-segmentation/", "Image segmentation"),
+          ("/instance-segmentation/", "Instance segmentation"),
           ("/object-detection/", "Object detection"),
           ), "Domains"),
         ("https://ufdl.cms.waikato.ac.nz/", "UFDL Project"),
