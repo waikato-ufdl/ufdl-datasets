@@ -16,7 +16,7 @@
 Image classification, object detection, image segmentation and instance segmentation datasets containing 37 categories of cats and dogs.
 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/pets/>`__
-* Original dataset: `images </data/oxford-pets/images.tar>`__ (755MB), `annotations </data/oxford-pets/annotations.tar>`__ (18MB)
+* Original dataset: `images </data/oxford-pets/images.tar.gz>`__ (755MB), `annotations </data/oxford-pets/annotations.tar.gz>`__ (18MB)
 * `Image classification dataset </data/oxford-pets/oxford-pets-subdir.zip>`__ (752MB)
 * `Image segmentation dataset (animal ROI; bluechannel) </data/oxford-pets/oxford-pets-bluechannel.zip>`__ (769MB)
 * `Instance segmentation dataset (animal ROI; MS COCO) </data/oxford-pets/oxford-pets-coco.zip>`__ (729MB)
