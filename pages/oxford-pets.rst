@@ -57,7 +57,9 @@ Conversion from original data:
 
 
 **License**
+
 `CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`__
 
 **Citation**
+
 `O. M. Parkhi, A. Vedaldi, A. Zisserman, C. V. Jawahar: Cats and Dogs, IEEE Conference on Computer Vision and Pattern Recognition, 2012 <https://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/>`__.
