@@ -135,4 +135,6 @@ dmypy.json
 .doit.db
 cache/
 output/
+.idea/
+*.iml
 
