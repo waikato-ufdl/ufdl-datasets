@@ -49,7 +49,7 @@ Conversion from original data:
   * The *output/adams* directory contains the **instance segmentation** dataset in ADAMS format
   * Convert the ADAMS annotations into MS COCO using the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library:
 
-    ``wai-annotations convert from-adams-od -i "./adams/*.report" to-coco-od -o ./coco/annotations.json``
+    ``wai-annotations convert from-adams-od -i "./adams/*.report" to-coco-od -o ./coco/annotations.json --sort-categories --category-output-file labels.txt``
 
   * Convert the ADAMS annotations into VOC using the `wai.annotations <https://github.com/waikato-ufdl/wai-annotations>`__ library:
 
