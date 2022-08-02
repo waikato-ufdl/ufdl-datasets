@@ -8,6 +8,9 @@
 .. type: text
 
 The `Oxford pets <link://slug/oxford-pets>`__ dataset has been added, which is
-available as: image classification, image segmentation, instance segmentation
-and object detection (head and animal).
+available as:
 
+* image classification
+* image segmentation
+* instance segmentation
+* object detection (bbox; head or animal).
