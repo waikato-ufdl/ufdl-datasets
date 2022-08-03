@@ -22,6 +22,7 @@ Image classification, object detection, image segmentation and instance segmenta
 * `Instance segmentation dataset (animal ROI; MS COCO) </data/oxford-pets/oxford-pets-coco.zip>`__ (729MB)
 * `Object detection dataset (head bbox; VOC XML format) </data/oxford-pets/oxford-pets-voc-head.zip>`__ (359MB)
 * `Object detection dataset (animal bbox; VOC XML format) </data/oxford-pets/oxford-pets-voc-animal.zip>`__ (710MB)
+* `Object detection/instance segmentation dataset (animal ROI; ADAMS) </data/oxford-pets/oxford-pets-adams.zip>`__ (726MB)
 
 Conversion from original data:
 
