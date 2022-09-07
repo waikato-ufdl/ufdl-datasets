@@ -1,6 +1,6 @@
 .. title: User-friendly Deep Learning: Datasets
 .. slug: index
-.. date: 2022-08-02 16:21:00 UTC+12:00
+.. date: 2022-09-08 11:21:00 UTC+12:00
 .. tags: 
 .. category: 
 .. link: 
@@ -17,3 +17,4 @@ For the following data domains, datasets have been made available:
 * `Image segmentation <link://slug/image-segmentation>`__
 * `Instance segmentation <link://slug/instance-segmentation>`__
 * `Object detection <link://slug/object-detection>`__
+* `Speech <link://slug/speech>`__

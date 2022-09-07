@@ -148,6 +148,7 @@ NAVIGATION_LINKS = {
           ("/image-segmentation/", "Image segmentation"),
           ("/instance-segmentation/", "Instance segmentation"),
           ("/object-detection/", "Object detection"),
+          ("/speech/", "Speech"),
           ), "Domains"),
         ("https://ufdl.cms.waikato.ac.nz/", "UFDL Project"),
         ("/rss.xml", "RSS"),
