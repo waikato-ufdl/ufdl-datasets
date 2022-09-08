@@ -14,6 +14,7 @@
 
 Speech datasets obtained from the `Common Voice <https://commonvoice.mozilla.org/en/datasets>`__ project:
 
+* `Dutch (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nl.tar.gz>`__ (2.7GB)
 * `Japanese (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-ja.tar.gz>`__ (1.1GB)
 * `Norwegian Nynorsk (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO.tar.gz>`__ (18.5MB)
 
