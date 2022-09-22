@@ -1,6 +1,6 @@
 .. title: Common Voice
 .. slug: common-voice
-.. date: 2022-09-08 11:10:51 UTC+12:00
+.. date: 2022-09-23 11:42:51 UTC+12:00
 .. tags: speech
 .. category: speech-dataset
 .. link: 
@@ -17,6 +17,11 @@ Speech datasets obtained from the `Common Voice <https://commonvoice.mozilla.org
 * Dutch
 
   * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nl.tar.gz>`__ (2.7GB)
+
+* Indonesian
+
+  * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-id.tar.gz>`__ (1.3GB)
+  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.tar.gz>`__ (1.4GB), `conversion </data/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.txt>`__
 
 * Japanese
 
