@@ -31,7 +31,7 @@ Speech datasets obtained from the `Common Voice <https://commonvoice.mozilla.org
 * Norwegian Nynorsk
 
   * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO.tar.gz>`__ (18.5MB)
-  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.tar.gz>`__ (1.8GB), `conversion </conversion/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.txt>`__
+  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.tar.gz>`__ (61.5MB), `conversion </conversion/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.txt>`__
 
 Relevant datasets to use from the archives:
 
