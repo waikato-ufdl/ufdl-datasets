@@ -21,17 +21,17 @@ Speech datasets obtained from the `Common Voice <https://commonvoice.mozilla.org
 * Indonesian
 
   * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-id.tar.gz>`__ (1.3GB)
-  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.tar.gz>`__ (1.4GB), `conversion </data/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.txt>`__
+  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.tar.gz>`__ (1.4GB), `conversion </conversion/common-voice/cv-corpus-10.0-2022-07-04-id-coqui.txt>`__
 
 * Japanese
 
   * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-ja.tar.gz>`__ (1.1GB)
-  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-ja-coqui.tar.gz>`__ (1.8GB), `conversion </data/common-voice/cv-corpus-10.0-2022-07-04-ja-coqui.txt>`__
+  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-ja-coqui.tar.gz>`__ (1.8GB), `conversion </conversion/common-voice/cv-corpus-10.0-2022-07-04-ja-coqui.txt>`__
 
 * Norwegian Nynorsk
 
   * `Common Voice (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO.tar.gz>`__ (18.5MB)
-  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.tar.gz>`__ (1.8GB), `conversion </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.txt>`__
+  * `Coqui STT (10.0-2022-07-04) </data/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.tar.gz>`__ (1.8GB), `conversion </conversion/common-voice/cv-corpus-10.0-2022-07-04-nn-NO-coqui.txt>`__
 
 Relevant datasets to use from the archives:
 

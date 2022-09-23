@@ -1,0 +1,22 @@
+for i in train dev test
+do
+  echo
+  echo $i
+  echo
+
+  wai-annotations convert \
+      from-common-voice-sp \
+         -i "./$i.tsv" \
+         --rel-path ./clips \
+      clean-transcript \
+         --quotes \
+      discard-negatives \
+      convert-to-wav \
+      convert-to-mono \
+      resample-audio \
+         -s 16000 \
+         -t kaiser_fast \
+      to-coqui-stt-sp \
+         -o "./coqui/$i.csv"
+done
+
