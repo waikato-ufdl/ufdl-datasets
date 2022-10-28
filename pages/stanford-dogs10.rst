@@ -13,9 +13,10 @@
    :alt: Stanford Dogs: Siberian Husky
    :align: right
 
-Image classification dataset containing 1,571 images consisting of 10 species of dogs, a subset of the
+Image classification dataset containing 1,571 images consisting of 10 breeds of dogs, a subset of the
 original `Stanford Dogs <link://slug/stanford-dogs>`__ dataset (**Warning:** Images in this dataset were taken from ImageNet).
 
+* Breeds: beagle, boxer, German shepherd, golden retriever, Irish setter, pug, Siberian husky, standard poodle, whippet, Yorkshire terrier
 * `Image classification dataset </data/stanford-dogs10/stanford-dogs10-subdir.zip>`__ (58MB)
 
 **License** (according to ImageNet website)
