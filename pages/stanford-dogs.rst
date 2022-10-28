@@ -13,7 +13,7 @@
    :alt: Stanford Dogs: English foxhound
    :align: right
 
-Image classification and object detection datasets containing 20,580 images consisting of 120 species of dogs (**Warning:** Images in this dataset were taken from ImageNet).
+Image classification and object detection datasets containing 20,580 images consisting of 120 breeds of dogs (**Warning:** Images in this dataset were taken from ImageNet).
 
 * `Source <http://vision.stanford.edu/aditya86/ImageNetDogs/main.html>`__ (`README </data/stanford-dogs/README.txt>`__)
 * Original dataset: `images </data/stanford-dogs/images.tar>`__ (794MB), `annotations </data/stanford-dogs/annotation.tar>`__ (22MB)
