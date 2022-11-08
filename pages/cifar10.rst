@@ -29,3 +29,7 @@ Conversion from original data:
 **License**
 
 Unclear.
+
+**Citation**
+
+`Learning Multiple Layers of Features from Tiny Images, Alex Krizhevsky, 2009. <https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf>`__
