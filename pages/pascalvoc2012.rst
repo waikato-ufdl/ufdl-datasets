@@ -20,7 +20,7 @@ segmentation, and person layout. There are a whole total of twenty object classe
 the train/val data set, including 27,450 ROI-tagged objects and 6,929 segmentations.
 
 * `Source <http://host.robots.ox.ac.uk/pascal/VOC/voc2012/>`__
-* `Original dataset </data/pascalvoc2012/VOCtrainval_11-May-2012.tar>`__ (2GB), `documentation <http://host.robots.ox.ac.uk/pascal/VOC/voc2012/devkit_doc.pdf>`__ (500KB)
+* `Original dataset </data/pascalvoc2012/VOCtrainval_11-May-2012.tar>`__ (2GB), `documentation <http://host.robots.ox.ac.uk/pascal/VOC/voc2012/devkit_doc.pdf>`__ (500KB), `labels <http://host.robots.ox.ac.uk/pascal/VOC/voc2012/labels.txt>`__
 * `Image segmentation dataset (indexed-png) </data/pascalvoc2012/pascalvoc2012-indexedpng.zip>`__ (315MB)
 
 Conversion from original data into dataset without the borders and void labels (index=255) is achieved with the
