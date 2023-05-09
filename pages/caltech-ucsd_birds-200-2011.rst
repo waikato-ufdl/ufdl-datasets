@@ -1,6 +1,6 @@
 .. title: Caltech-UCSD Birds-200-2011
 .. slug: caltech-ucsd_birds-200-2011
-.. date: 2022-03-04 14:20:51 UTC+12:00
+.. date: 2023-05-09 16:00:51 UTC+12:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 
@@ -19,6 +19,7 @@ Image classification and object detection datasets containing 11,788 images cons
 * `Original dataset </data/caltech-ucsd_birds-200-2011/CUB_200_2011.tgz>`__ (1.2GB)
 * `Image classification dataset </data/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-subdir.zip>`__ (1.1GB)
 * `Object detection dataset (VOC XML format) </data/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-voc.zip>`__ (1.1GB)
+* `Object detection dataset (ADAMS format) </data/caltech-ucsd_birds-200-2011/caltech-ucsd_birds-200-2011-adams.zip>`__ (1.1GB)
 
 Conversion from original data:
 
