@@ -1,6 +1,6 @@
 .. title: American Sign Language Letters
 .. slug: american-sign-language-letters
-.. date: 2022-03-04 14:02:51 UTC+12:00
+.. date: 2023-05-09 16:00:51 UTC+12:00
 .. tags: object-detection, image-classification
 .. category: image-dataset
 .. link: 
@@ -19,6 +19,7 @@ Object detection and image classification dataset containing 1,728 images in tot
 * `Original dataset </data/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__ (24MB)
 * `Image classification dataset </data/american-sign-language-letters/american-sign-language-letters-subdir.zip>`__ (22MB)
 * `Object detection dataset (VOC XML format) </data/american-sign-language-letters/american-sign-language-letters-voc.zip>`__ (23MB)
+* `Object detection dataset (ADAMS) </data/american-sign-language-letters/american-sign-language-letters-adams.zip>`__ (23MB)
 
 Conversion from original data:
 
