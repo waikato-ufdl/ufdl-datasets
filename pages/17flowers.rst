@@ -1,6 +1,6 @@
 .. title: 17 Flowers
 .. slug: 17flowers
-.. date: 2022-03-08 11:40:51 UTC+12:00
+.. date: 2023-05-09 15:40:51 UTC+12:00
 .. tags: image-classification, object-detection
 .. category: image-dataset
 .. link: 
@@ -18,7 +18,8 @@ Image classification dataset containing 1360 images consisting of 17 species of 
 * `Source <https://www.robots.ox.ac.uk/~vgg/data/flowers/17/>`__ (`README </data/17flowers/README.txt>`__)
 * `Original images </data/17flowers/17flowers.zip>`__ (60MB), `original trimaps </data/17flowers/trimaps.zip>`__ (60MB)
 * `Image classification dataset </data/17flowers/17flowers-subdir.zip>`__ (35MB)
-* `Object detection dataset </data/17flowers/17flowers-voc.zip>`__ (61MB)
+* `Object detection dataset (VOC) </data/17flowers/17flowers-voc.zip>`__ (61MB - not all images have annotations)
+* `Object detection dataset (ADAMS) </data/17flowers/17flowers-adams.zip>`__ (35MB)
 
 Conversion from original data:
 
