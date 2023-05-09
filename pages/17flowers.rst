@@ -19,7 +19,7 @@ Image classification dataset containing 1360 images consisting of 17 species of 
 * `Original images </data/17flowers/17flowers.zip>`__ (60MB), `original trimaps </data/17flowers/trimaps.zip>`__ (60MB)
 * `Image classification dataset </data/17flowers/17flowers-subdir.zip>`__ (35MB)
 * `Object detection dataset (VOC XML format) </data/17flowers/17flowers-voc.zip>`__ (61MB - not all images have annotations)
-* `Object detection dataset (ADAMS) </data/17flowers/17flowers-adams.zip>`__ (35MB)
+* `Object detection dataset (ADAMS format) </data/17flowers/17flowers-adams.zip>`__ (35MB)
 
 Conversion from original data:
 

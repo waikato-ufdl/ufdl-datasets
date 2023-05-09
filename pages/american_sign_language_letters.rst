@@ -19,7 +19,7 @@ Object detection and image classification dataset containing 1,728 images in tot
 * `Original dataset </data/american-sign-language-letters/American%20Sign%20Language%20Letters.v1-v1.voc.zip>`__ (24MB)
 * `Image classification dataset </data/american-sign-language-letters/american-sign-language-letters-subdir.zip>`__ (22MB)
 * `Object detection dataset (VOC XML format) </data/american-sign-language-letters/american-sign-language-letters-voc.zip>`__ (23MB)
-* `Object detection dataset (ADAMS) </data/american-sign-language-letters/american-sign-language-letters-adams.zip>`__ (23MB)
+* `Object detection dataset (ADAMS format) </data/american-sign-language-letters/american-sign-language-letters-adams.zip>`__ (23MB)
 
 Conversion from original data:
 
